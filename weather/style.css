@@ -1,0 +1,93 @@
+.container{
+    
+    width:100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+   background-image: url("https://img.freepik.com/free-photo/summer-landscape-with-lake-sunny-day_1127-3762.jpg?t=st=1735736889~exp=1735740489~hmac=b7e7151aa426de760410b907b6785a1a3766db04c8d8b0b37a3cfc7034dd0cd5&w=996");
+}
+
+button{
+    outline: none;
+    background-color: #ff5945;
+    border: none;
+    color: white;
+    padding: 17px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+body{
+    background-color: gray;
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+.city{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.temp{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.col{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+   
+}
+
+.weather{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+.weather img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.cloud{
+  display: none;
+  justify-content: center;
+
+}
+.details{
+    display: none;
+}
